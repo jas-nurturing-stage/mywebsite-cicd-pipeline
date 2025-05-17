@@ -42,15 +42,19 @@ To host your CI/CD-managed application, you need a Linux server where Nginx will
 | 🛠️ **Configuration** | 📋 **Details**                                            | ⚠️ **Notes**                                |
 | -------------------- | --------------------------------------------------------- | ------------------------------------------- |
 | Name and Tags        | `cicd-Jasmine-B10`                                        | Easy identification                         |
-| AMI Selection        | Ubuntu Server 24.04 LTS (AMI ID: ``) | Default user: `ubuntu`                      |
+| AMI Selection        | Ubuntu Server 24.04 LTS (AMI ID: `ami-0e35ddab05955cf57`) | Default user: `ubuntu`                      |
 | Instance Type        | `t2.micro`                                                | Free Tier eligible                          |
 | Key Pair             | `Jasmine-B10`                                               | Save `.pem` file securely                   |
 | Network Settings     | Default VPC/Subnet, Public IP enabled                     | SG: `my-web-app-Jasmine-B10` (SSH/HTTP open) |
 | Storage              | 8 GiB `gp3`                                               | Free Tier eligible                          |
 | Launch               | Click **Launch Instance**                                 | Review configuration                        |
 
-![Ec2](/images/ec2.png)
-
+![Ec2]![image](https://github.com/user-attachments/assets/4e050b2c-acf1-4061-b398-d9d680c39243)
+![image](https://github.com/user-attachments/assets/3139ef16-504c-460d-b61a-72adf5bba2db)
+![image](https://github.com/user-attachments/assets/d7414043-5f0a-4001-a117-0748defbc262)
+![image](https://github.com/user-attachments/assets/73a0dd37-b4d1-4d6c-a003-8577a6b6a01f)
+![image](https://github.com/user-attachments/assets/3f98d805-bc54-4b8b-87f9-1628fc7ca726)
+![image](https://github.com/user-attachments/assets/0b743d3b-5b8b-4a8e-8e95-00320de6415a)
 ---
 
 ### 🔗 Connect via SSH
